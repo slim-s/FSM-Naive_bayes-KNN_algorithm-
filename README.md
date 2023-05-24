@@ -1,2 +1,8 @@
 # FSM-Naive_bayes-KNN_algorithm-
-Python implementation of Naive Bayes and K-Nearest Neighbours algorithms using NumPy, Pandas, math.py Seaborne and Matplotlib libraries.
+This Python implementation focuses on two popular machine learning algorithms: Naive Bayes and K-Nearest Neighbours (KNN). The goal is to build these algorithms from scratch using fundamental libraries such as Numpy, Pandas, and Matplotlib for visualization.
+
+The Naive Bayes algorithm is a probabilistic classification method based on Bayes' theorem. It assumes that features are conditionally independent given the class label, hence the term "naive." The implementation involves creating a NaiveBayesClassifier class that can handle both categorical and continuous feature variables. It includes functions for calculating prior probabilities, likelihoods, and posterior probabilities. The algorithm is trained on a given dataset and then used to predict the class labels of new instances.
+
+The K-Nearest Neighbours algorithm is a non-parametric classification algorithm that classifies new instances based on their proximity to training instances. It requires choosing the number of neighbors (K) and a distance metric. In this implementation, a KNearestNeighbors class is developed that can handle different distance metrics such as Euclidean distance or Manhattan distance. The algorithm involves calculating distances between instances, selecting the K nearest neighbors, and determining the class label based on majority voting.
+
+To support the implementation, Numpy is used for efficient numerical operations, such as calculating means, variances, distances, and probabilities. Pandas is utilized for data manipulation and organization, allowing easy handling of datasets with labeled columns and rows. Matplotlib is employed for visualizing the results, including plots such as histograms, scatter plots, and decision boundaries.
